@@ -1,9 +1,9 @@
 const Path = require("path");
 
-module.exports = () => ({
+module.exports = {
     plugins: {
         options: {
             myTemplates: [Path.resolve(__dirname, "../../templates")]
         }
     }
-});
+};
