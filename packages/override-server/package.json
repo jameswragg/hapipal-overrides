@@ -1,0 +1,43 @@
+{
+  "name": "override-server",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "James Wragg <james.wragg@madgex.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "nodemon server",
+    "dev-debug": "node --inspect-brk=9229 server",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@hapi/boom": "9.x.x",
+    "@hapi/glue": "7.x.x",
+    "@hapi/hapi": "19.x.x",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/joi": "17.x.x",
+    "@hapi/vision": "^6.0.0",
+    "confidence": "4.x.x",
+    "dotenv": "8.x.x",
+    "haute-couture": "3.x.x",
+    "nunjucks": "^3.2.1",
+    "toys": "2.x.x",
+    "render-server": "*"
+  },
+  "devDependencies": {
+    "@hapi/code": "8.x.x",
+    "@hapi/lab": "22.x.x",
+    "blipp": "^4.0.1",
+    "eslint": "6.x.x",
+    "hpal": "^2.5.0",
+    "hpal-debug": "1.x.x"
+  }
+}
